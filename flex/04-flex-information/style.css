@@ -24,3 +24,45 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/*Exercice*/
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 32px;
+  font-size: 2em;
+}
+
+
+.item-container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item{
+  width: 200px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text{
+  margin-top: 10px;
+}
